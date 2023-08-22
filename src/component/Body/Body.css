@@ -1,0 +1,112 @@
+.complementario {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.body h1 {
+    font-size: 50px;
+    color: rgb(6, 129, 88);
+}
+
+.body p {
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+.body img {
+    max-width: 400px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.whatsapp {
+   
+    display: flex;
+    
+    
+    Width: 60px;
+    position: sticky;
+    bottom: 20px;
+   
+}
+
+.informacion {
+    margin-top: 40px;
+}
+
+.informacion h2 {
+
+    font-size: 40px;
+    color:white;
+    
+}
+
+.informacion p {
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+.informacion img {
+    max-width: 450px;
+}
+
+@media (min-width:768px) {
+    .body img {
+        max-width: 600px;
+
+    }
+
+    .informacion img {
+        max-width: 900px;
+    }
+
+ 
+}
+
+@media (min-width:1200px) {
+    .body h1 {
+        font-size: 90px;
+    }
+
+    .body img {
+        max-width: 1500px;
+        margin: 20px;
+
+    }
+
+ 
+
+    .informacion {
+        background-color: rgb(8, 189, 159);
+        margin-top: 90px;
+        display: grid;
+        grid-template-columns: 700px 700px;
+        grid-template-rows: 200px 700px;
+        grid-template-areas: 'titulo foto'
+            'parrafo foto';
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .informacion h2 {
+        grid-area: titulo;
+        font-size: 60px;
+    }
+
+    .informacion p {
+        grid-area: parrafo;
+        font-size: 40px;
+      
+
+    }
+
+    .informacion img {
+        grid-area: foto;
+        display: flex;
+        justify-self: center;
+    }
+}

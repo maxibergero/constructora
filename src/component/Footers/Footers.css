@@ -1,0 +1,27 @@
+.footers {
+    display: flex;
+    justify-content: space-around;    
+    align-items: center;
+    background-color: black;
+   
+   
+}
+.footers img {
+    width: 150px;
+   
+   
+}
+.redSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;    
+}
+.phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
